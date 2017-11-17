@@ -4,7 +4,7 @@
 	<head lang="en">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>Vasco File Browser</title>
+		<title>Cute File Browser</title>
 		<!-- Include our stylesheet -->
 		<link href="assets/css/styles.css" rel="stylesheet"/> 
 
