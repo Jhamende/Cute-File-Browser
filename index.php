@@ -19,7 +19,7 @@
 			</div>
 			<div class="breadcrumbs"></div>
 			<button class="button" onclick="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go Back</button>
-			<a class="button" href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+			<a class="button" href="../"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 
 			<ul class="data"></ul>
 			<div class="nothingfound">

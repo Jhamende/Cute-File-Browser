@@ -19,7 +19,7 @@ html {
     /* Full height */
     height: 100%; 
 	/* The image used */
-    background-image: url("images/background.jpg");
+    background-image: url("../../images/background.jpg");
     
     background-color: #373743;
     /* Center and scale the image nicely */

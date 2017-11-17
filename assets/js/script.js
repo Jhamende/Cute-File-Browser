@@ -297,7 +297,7 @@ $(function(){
 					var itemsLength = f.items.length,
 						name = escapeHTML(f.name),
 						icon = '<span class="icon folder"></span>',
-						logopath = '/images/logos/' + f.path + '.png';
+						iconpath = '/images/logos/' + f.path + '.png';
 					
 					
 					function imageExists(image_url){
@@ -311,8 +311,8 @@ $(function(){
 
 					}
 					
-					if (f.path.includes("_Country") && imageExists(logopath)) {
-						icon = '<div style="display:inline-block;margin:5px 5px 5px 5px;border-radius:8px;width:100px;height:100px;background-position: center center;background-size: cover; background-repeat:no-repeat;background-image: url(\'' +logopath + '\');"></div>';
+					if (imageExists(iconpath)) {
+						icon = '<div style="display:inline-block;margin:5px 5px 5px 5px;border-radius:8px;width:100px;height:100px;background-position: center center;background-size: cover; background-repeat:no-repeat;background-image: url(\'' +iconpath + '\');"></div>';
 					} else if(itemsLength) {
 						icon = '<span class="icon folder full"></span>';
 					}
