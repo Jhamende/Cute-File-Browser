@@ -6,3 +6,5 @@ Installation instructions:
 2. Extract all content to your hosting space. 
 3. Place all you content into the "Home"-folder
 4. You're done :)
+
+Demo: https://hamende.eu/FileBrowserDemo/
