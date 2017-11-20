@@ -21,3 +21,12 @@ Sample data:
 3. Place all you content into the "Home"-folder
 4. You're done :)
 
+-----
+<b>Icon Management</b>
+This tool is developped in order to check if an icon exists for specific folder, if not, it will apply default icons. 
+Place your png icon with the same name as your folder within the same structure as your content folder. 
+
+Example:
+Folder: /Home/Lorem Ipsum/ will get icon /images/icons/Home/Lorem.ipsum.png
+
+-----
