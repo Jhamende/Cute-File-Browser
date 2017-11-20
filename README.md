@@ -24,14 +24,14 @@ Demo: https://hamende.eu/FileBrowserDemo/
 -----
 ###  Customizations:
 
-## Icon Management
+#### Icon Management
 This tool is developped in order to check if an icon exists for specific folder, if not, it will apply default icons. 
 Place your png icon with the same name as your folder within the same structure as your content folder. 
 
 Example:
 Folder: /Home/Lorem Ipsum/ will get icon /images/icons/Home/Lorem.ipsum.png
 
-## Background Image
+#### Background Image
 Just replace /images/background.jpg by another one and change the name to background.jpg
 
 -----
