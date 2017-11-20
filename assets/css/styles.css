@@ -60,7 +60,7 @@ html {
 .filemanager .breadcrumbs {
 	color: #ffffff;
 	margin-left:20px;
-	font-size: 24px;
+	font-size: 13px;
 	font-weight: 700;
 	line-height: 35px;
 }
@@ -76,7 +76,7 @@ html {
 
 .filemanager .breadcrumbs .arrow {
 	color:  #6a6a72;
-	font-size: 24px;
+	font-size: 13px;
 	font-weight: 700;
 	line-height: 20px;
 }
