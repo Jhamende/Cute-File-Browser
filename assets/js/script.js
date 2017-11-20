@@ -297,7 +297,7 @@ $(function(){
 					var itemsLength = f.items.length,
 						name = escapeHTML(f.name),
 						icon = '<span class="icon folder"></span>',
-						iconpath = '/images/logos/' + f.path + '.png';
+						iconpath = '/images/icons/' + f.path + '.png';
 					
 					
 					function imageExists(image_url){
