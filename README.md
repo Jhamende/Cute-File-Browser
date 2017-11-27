@@ -2,7 +2,7 @@
 Based on https://tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php
 - Added Fancybox Support
 - Added custom icon management
-- Changed script.js in order to be support by most recent jquery version, also better for fancybox. 
+- Modified  /assets/js/script.js in order to be supported by most recent jquery version, also better for fancybox. 
  
 -----
 
