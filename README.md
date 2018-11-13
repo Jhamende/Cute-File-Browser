@@ -20,7 +20,7 @@ Demo: https://hamende.eu/FileBrowserDemo/
 
 ###  Installation instructions:
 1. Download zip-file
-2. Extract all content to your hosting space. 
+2. Extract all content to your hosting space. All folder names should be without spaces
 3. Place all you content into the "Home"-folder
 4. You're done :)
 
