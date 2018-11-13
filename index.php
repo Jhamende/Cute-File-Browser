@@ -30,11 +30,6 @@
 				
 			</div>
 
-<script>
-function goBack() {
-    window.history.back();
-}
-</script>
 
 
 		<!-- Include our script files -->
@@ -45,7 +40,15 @@ function goBack() {
 		<script src="assets/fancybox-master/dist/jquery.fancybox.js"></script>
 
 
-
+<script>
+function goBack() {
+    url = window.location.href; 
+    url = url.substr(0, url.lastIndexOf("%2"));
+    //window.history.back();
+    window.location.href = url;
+}
+</script>
+		
 <script>
 $('.fancybox-media').fancybox({
     type: 'iframe',
