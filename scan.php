@@ -46,18 +46,6 @@ function scan($dir){
 					"size" => filesize($dir . '/' . $f) // Gets the size of this file
 				);
 			}
-
-			else if (strpos($f, 'CISA')) {
-
-				// It is a file
-
-				$files[] = array(
-					"name" => $f,
-					"type" => "folder",
-					"path" => $dir . '/' . $f,
-					"size" => filesize($dir . '/' . $f) // Gets the size of this file
-				);
-			}
 		}
 	
 	}
