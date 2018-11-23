@@ -296,8 +296,9 @@ $(function(){
 
 					var itemsLength = f.items.length,
 						name = escapeHTML(f.name),
+						
 						icon = '<span class="icon folder"></span>',
-						iconpath = '/images/icons/' + f.path + '.png';
+						iconpath = 'images/icons/' + f.path + '.png';
 					
 					
 					function imageExists(image_url){
@@ -406,6 +407,8 @@ $(function(){
 
 					if (i !== breadcrumbsUrls.length - 1) {
 						url += '<a href="'+u+'"><span class="folderName">' + name[name.length-1] + '</span></a> <span class="arrow">→</span> ';
+						document.getElementById("backButton").href = "#"+u;
+						
 					}
 					else {
 						url += '<span class="folderName">' + name[name.length-1] + '</span>';
