@@ -1,3 +1,6 @@
+<?php 
+	define('PROJECT_ROOT', getcwd());
+?> 
 
 <!DOCTYPE html>
 <html> 
@@ -12,6 +15,9 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
 	</head> 
 	<body>
 			<div class="filemanager">
@@ -19,8 +25,8 @@
 				<input type="search" placeholder="Find a file.." />
 			</div>
 			<div class="breadcrumbs"></div>
-			<button class="button" onclick="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go Back</button>
-			<a class="button" href="../"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+			<a class="button folderName" id="backButton" href=""><i class="fa fa-arrow-left" aria-hidden="true"></i> Go Back</a>
+			<a class="button" href="./"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 
 			<ul class="data"></ul>
 			<div class="nothingfound">
@@ -31,7 +37,6 @@
 			</div>
 
 
-
 		<!-- Include our script files -->
 		<!--- <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
 		<!-- <script src="https://code.jquery.com/jquery-2.2.4.js"></script> -->
@@ -40,15 +45,7 @@
 		<script src="assets/fancybox-master/dist/jquery.fancybox.js"></script>
 
 
-<script>
-function goBack() {
-    url = window.location.href; 
-    url = url.substr(0, url.lastIndexOf("%2"));
-    //window.history.back();
-    window.location.href = url;
-}
-</script>
-		
+
 <script>
 $('.fancybox-media').fancybox({
     type: 'iframe',
